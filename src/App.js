@@ -31,7 +31,7 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
-      <Route exact path="/" render={() => (
+      <Route exact path="/" basename="contacts" render={() => (
         <ListContacts
         onDeleteContact={this.removeContact}
         contacts={this.state.contacts}
