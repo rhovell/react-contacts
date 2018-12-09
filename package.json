@@ -1,8 +1,8 @@
 {
-  "name": "contacts",
+  "name": "Contacts-App",
   "version": "0.1.0",
   "homepage": "https://rhovell.github.io/react-contacts/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
     "form-serialize": "^0.7.2",
@@ -20,5 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "react-scripts": "1.1.4"
   }
 }
